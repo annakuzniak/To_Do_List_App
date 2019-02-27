@@ -9,6 +9,7 @@ import { TodoService } from './shared/todo.service';
 })
 export class TodoComponent implements OnInit {
     toDoListArray: any[];
+    category: number;
     constructor(private TodoService: TodoService) { }
 
   ngOnInit() {

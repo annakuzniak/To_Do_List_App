@@ -1,7 +1,13 @@
 <div class="container">
+    <nav>
+        <a routerLink="/">Home </a>
+        <a routerLink="/todo">Your To Do</a>
+    </nav> 
     <div class="row">
-        <div class="col-md-6 offset-md-3">
-            <app-todo></app-todo>
+        <div class="col-md-6 offset-md-3">            
         </div>
     </div>
+    <router-outlet></router-outlet>
 </div>
+
+
